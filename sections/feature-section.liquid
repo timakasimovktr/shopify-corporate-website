@@ -1,0 +1,177 @@
+{{ 'feature-section.css' | asset_url | stylesheet_tag }}
+{% assign ss = section.settings %}
+
+{% style %}
+  #shopify-section-{{ section.id }} .main-button-hover:hover{
+    color: {{ ss.background_color }} !important;
+    background-color: transparent !important;
+  }
+{% endstyle %}
+
+<section class="feature-section" style="padding: {{ ss.section_padding }}px 0;">
+  <div class="feature-wrapper page-width">
+    <div class="left-feature">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'blockLeft' %}
+            <div class="feature">
+              <div class="feature-icon">
+                {% if block.settings.image %}
+                  <img src="{{ block.settings.image | image_url: width: 22 }}" alt="{{ block.settings.title }}">
+                {% endif %}
+              </div>
+              <div class="feature-content">
+                <div class="feature-title">
+                  {{ block.settings.title }}
+                </div>
+                <div class="feature-text">
+                  {{ block.settings.text }}
+                </div>
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+
+    <div class="feature-img">
+      <img src="{{ section.settings.feature_image | image_url: width: 550 }}" alt="Feature image">
+    </div>
+
+    <div class="right-feature">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'blockRight' %}
+            <div class="feature">
+              <div class="feature-icon">
+                {% if block.settings.image %}
+                  <img src="{{ block.settings.image | image_url: width: 22 }}" alt="{{ block.settings.title }}">
+                {% endif %}
+              </div>
+              <div class="feature-content">
+                <div class="feature-title">
+                  {{ block.settings.title }}
+                </div>
+                <div class="feature-text">
+                  {{ block.settings.text }}
+                </div>
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+  {% if ss.show_button %}
+    <div class="feature-button">
+    <a class="main-button {% if ss.hover_effect %} main-button-hover {% endif %}" style="background: {{ ss.background_color }}; color: {{ ss.text_color }}; {% if ss.hover_effect %} border: {{ ss.background_color }} 1px solid; {% endif %}" href="{{ ss.button_link }}" title="Button Url">{{ ss.button_text }}</a>
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "Feature Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "feature_image",
+      "label": "Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_button",
+      "label": "Show Button",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Button"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Button Background Color",
+      "default": "#a8a8a8"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Button Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "checkbox",
+      "id": "hover_effect",
+      "label": "Hover Effect",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section Padding",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "type": "blockLeft",
+      "name": "Block Left",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    },
+    {
+      "type": "blockRight",
+      "name": "Block Right",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature Section"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,136 @@
+{{ 'section-with-details.css' | asset_url | stylesheet_tag }}
+{%- assign ss = section.settings -%}
+{%- assign b = block.settings -%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 992px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+<section style="background: {{ ss.background_color }};" {% if ss.id != blank %} id="{{ss.id }}" {% endif %} class="section-with-details section-{{ section.id }}-padding {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div class="container page-width">
+    <div class="content">
+      <h3 class="heading montserrat {{ section.settings.heading_size }} {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"> {{ ss.heading }} </h3>
+      <div class="section-description {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ ss.description }}
+      </div>
+    </div>
+    <div class="details">
+      {% for block in section.blocks %}
+        <div class="detail {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <span class="detail-title montserrat">
+            {{ block.settings.title }}
+          </span>
+          <span class="detail-content">
+            {{ block.settings.content }}
+          </span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Content with Details",
+    "settings": [
+      {
+        "type": "text",
+        "id": "id",
+        "label": "Section ID"
+      },
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Testimonials"
+      }, 
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "t:sections.all.heading_size.options__1.label"
+          }, {
+            "value": "h1",
+            "label": "t:sections.all.heading_size.options__2.label"
+          }, {
+            "value": "h0",
+            "label": "t:sections.all.heading_size.options__3.label"
+          }
+        ],
+        "default": "h1",
+        "label": "t:sections.all.heading_size.label"
+      },
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description",
+        "default": "<p>Description</p>"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "details",
+        "name": "Details",
+        "settings": [
+          {
+            "type": "inline_richtext",
+            "id": "title",
+            "label": "Title",
+            "default": "Number"
+          },
+          {
+            "type": "inline_richtext",
+            "id": "content",
+            "label": "Content",
+            "default": "Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Content with Details"
+      }
+    ]
+  }
+{% endschema %}

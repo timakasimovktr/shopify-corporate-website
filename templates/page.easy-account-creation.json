@@ -1,0 +1,430 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "713dbc3b-d704-423b-ac6c-6635f9227e8c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Encourage Post-Purchase Account Signups Without Losing Sales<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Encouraging customers to create an account after completing a purchase can be an effective way to increase long-term customer relationships and drive repeat sales.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try for FREE",
+            "button_link": "https:\/\/apps.shopify.com\/create-account?llama_page_id=eac"
+          }
+        }
+      },
+      "block_order": [
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-0",
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-1",
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-2"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/eac-hero-0.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "hover_effect": true,
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "image_mobile_padding_bottom": 36,
+        "content_mobile_padding_bottom": 36,
+        "section_border": false,
+        "border_padding_bottom_top": 0,
+        "border_padding_left_right": 0,
+        "section_hover_animation": false
+      }
+    },
+    "e613a856-4db1-4bfb-921f-d54878b2f890": {
+      "type": "section-testimonials",
+      "blocks": {
+        "e1201a35-6030-434a-86dc-b750c69ccde3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-7-color.png"
+          }
+        },
+        "84498be8-048d-4bcf-9976-5be2514e7086": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/schiff.png"
+          }
+        },
+        "ed71d3ac-6658-41f3-b7a4-9784f20ae718": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vitarx.png"
+          }
+        },
+        "89359dcd-0f9d-4eee-99c3-13baf459c813": {
+          "type": "comment",
+          "settings": {
+            "name": "VitaRx",
+            "company": "United States",
+            "comment": "This app is a quick and easy solution to a what I feel is a big problem with the current Shopify out of the box, post purchase flow of creating an account."
+          }
+        },
+        "45995eed-ee78-4ead-9f21-5c878b82851d": {
+          "type": "comment",
+          "settings": {
+            "name": "MasterTailor",
+            "company": "United States",
+            "comment": "User-friendly, easy to install and it has everything you need to increase customer retention. Nice and good interface to update pre and post signup messages. Orders and customers get tagged after an account signup. Missing option to add GTM events but highly recommended if you want to increase signups."
+          }
+        }
+      },
+      "block_order": [
+        "e1201a35-6030-434a-86dc-b750c69ccde3",
+        "84498be8-048d-4bcf-9976-5be2514e7086",
+        "ed71d3ac-6658-41f3-b7a4-9784f20ae718",
+        "89359dcd-0f9d-4eee-99c3-13baf459c813",
+        "45995eed-ee78-4ead-9f21-5c878b82851d"
+      ],
+      "settings": {
+        "id": "",
+        "heading": "Success Stories",
+        "description": "<p>Discover why CTO's and Executives from top brands across industries recommend our services. Read their testimonials.<\/p>",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "4a62042b-4bcd-4792-8768-a2eeae454968": {
+      "type": "promo-section",
+      "blocks": {
+        "d067fa3a-ae2a-4965-a7bd-572e169487bd": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bookmark-white.png",
+            "title": "<h3><strong>Auto-Tagging<\/strong><\/h3>",
+            "text": "<p>Automatically tags customers and orders to better target and personalize marketing efforts.<\/p>"
+          }
+        },
+        "91bd65a3-c801-4b51-9044-0a45679bf8b6": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen-Shot-2016-06-21-at-11.39.29-AM-300x284-removebg-preview.png",
+            "title": "<h3><strong>Easy Signup<\/strong><\/h3>",
+            "text": "<p>Post-purchase account signup. Simplify account creation for customers, right after a purchase.<\/p>"
+          }
+        },
+        "8390d03a-7772-4d20-9956-801419059059": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/calendar.png",
+            "title": "<h3><strong>DOB Capture<\/strong><\/h3>",
+            "text": "<p>Requesting the customer's date of birth during signup can help personalize their experience.<\/p>"
+          }
+        },
+        "74fd0f72-23a8-4d48-a95e-9c86a8641604": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift.png",
+            "title": "<h3><strong>Incentives<\/strong><\/h3>",
+            "text": "<p>Offer exclusive discounts, or other benefits to customers who sign up for an account after their purchase.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "d067fa3a-ae2a-4965-a7bd-572e169487bd",
+        "91bd65a3-c801-4b51-9044-0a45679bf8b6",
+        "8390d03a-7772-4d20-9956-801419059059",
+        "74fd0f72-23a8-4d48-a95e-9c86a8641604"
+      ],
+      "settings": {
+        "id": "",
+        "special_text": "<p><strong>KEY FEATURES<\/strong><\/p>",
+        "heading": "<h1><strong>Streamline your Shopify account creation process.<\/strong><\/h1>",
+        "text_align": "left",
+        "background_color": "#f0f0f0",
+        "heading_width": 540,
+        "heading_margin_bottom": 20,
+        "special_text_margin_bottom": 0,
+        "section_padding": 100
+      }
+    },
+    "8d249a6a-1af8-49ca-a3d0-98b75ee1882c": {
+      "type": "heading-section",
+      "settings": {
+        "id": "",
+        "special_text": "",
+        "heading": "<h1><strong>Shopify Post-Purchase Account Signups Without Losing Sales<\/strong><\/h1>",
+        "subheading": "<p>Learn how to leverage a Shopify app for post-purchase account signups, featuring solutions to common problems and best practices for boosting customer loyalty, personalizing marketing efforts, and driving repeat sales.<\/p>",
+        "text_align": "center",
+        "heading_width": 860,
+        "heading_margin_bottom": 20,
+        "special_text_margin_bottom": 20,
+        "section_padding": 32
+      }
+    },
+    "cdf3f630-7908-4e01-8e12-eba236a62ebe": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19395762061591__cdf3f630-7908-4e01-8e12-eba236a62ebe-168673896398a6f7c6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Post-Purchase Account Creation Prompt<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19395762061591__cdf3f630-7908-4e01-8e12-eba236a62ebe-168673896398a6f7c6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Display a prompt for account creation immediately after the customer completes their purchase. This can be presented as a way to track their order, save their information for future purchases, or receive special offers.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19395762061591__cdf3f630-7908-4e01-8e12-eba236a62ebe-168673896398a6f7c6-0",
+        "template--19395762061591__cdf3f630-7908-4e01-8e12-eba236a62ebe-168673896398a6f7c6-1"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/eac-hero-2_1.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "hover_effect": false,
+        "button_background": "#a8a8a8",
+        "button_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "image_mobile_padding_bottom": 36,
+        "content_mobile_padding_bottom": 36,
+        "section_border": false,
+        "border_padding_bottom_top": 0,
+        "border_padding_left_right": 0,
+        "section_hover_animation": true
+      }
+    },
+    "6ada89d4-c3bb-467b-93c3-396217c26d56": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19395762061591__6ada89d4-c3bb-467b-93c3-396217c26d56-168673896398a6f7c6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Easy Signup Process<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19395762061591__6ada89d4-c3bb-467b-93c3-396217c26d56-168673896398a6f7c6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Keep the account creation process simple, with minimal information required. Focus on essentials such as password, and basic contact information.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19395762061591__6ada89d4-c3bb-467b-93c3-396217c26d56-168673896398a6f7c6-0",
+        "template--19395762061591__6ada89d4-c3bb-467b-93c3-396217c26d56-168673896398a6f7c6-1"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/eac-hero-3.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "hover_effect": false,
+        "button_background": "#a8a8a8",
+        "button_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_mobile_padding_bottom": 36,
+        "content_mobile_padding_bottom": 36,
+        "section_border": false,
+        "border_padding_bottom_top": 0,
+        "border_padding_left_right": 0,
+        "section_hover_animation": false
+      }
+    },
+    "a64f5c98-165f-4e15-9cca-19e32f5561b8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19395762061591__a64f5c98-165f-4e15-9cca-19e32f5561b8-168673924955d5d64d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Customize Font Size, Colors, Password Settings, and Layout<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19395762061591__a64f5c98-165f-4e15-9cca-19e32f5561b8-168673924955d5d64d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience a personalized touch by adjusting the User Interface (UI) colors to suit your preferences. Choose from a wide variety of color schemes or create your own unique palette to enhance your app's appearance. Optimize readability and accessibility by adjusting the font size and layout of the app. Try the App Today!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19395762061591__a64f5c98-165f-4e15-9cca-19e32f5561b8-168673924955d5d64d-0",
+        "template--19395762061591__a64f5c98-165f-4e15-9cca-19e32f5561b8-168673924955d5d64d-1"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/eac-hero-1.svg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "hover_effect": false,
+        "button_background": "#a8a8a8",
+        "button_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_mobile_padding_bottom": 36,
+        "content_mobile_padding_bottom": 36,
+        "section_border": false,
+        "border_padding_bottom_top": 0,
+        "border_padding_left_right": 0,
+        "section_hover_animation": false
+      }
+    },
+    "e6f94e94-ebdd-452c-8d93-1971b2c5c89e": {
+      "type": "heading-section",
+      "settings": {
+        "id": "",
+        "special_text": "<p><strong>THE BENEFITS<\/strong><\/p>",
+        "heading": "<h1><strong>Post Purchase Account Creation for Shopify Stores<\/strong><\/h1>",
+        "subheading": "<p>Use Easy Account Creation App to easily implement post-purchase account creation prompt, and Streamline the account creation process for your customers.<\/p>",
+        "text_align": "center",
+        "heading_width": 760,
+        "heading_margin_bottom": 10,
+        "special_text_margin_bottom": 0,
+        "section_padding": 18
+      }
+    },
+    "0f6592ad-0dc5-450c-89d7-fa444f9bf001": {
+      "type": "feature-section",
+      "blocks": {
+        "8f651bf7-01ee-4b0b-857e-07a0e8641f0f": {
+          "type": "blockLeft",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen-Shot-2016-06-21-at-11.39.29-AM-300x284-removebg-preview.png",
+            "title": "<h3><strong>Post-Purchase Account Creation Prompt<\/strong><\/h3>",
+            "text": "<p>Display a prompt for account creation immediately after the customer completes their purchase. This can be presented as a way to track their order, save their information for future purchases, or receive special offers.<\/p>"
+          }
+        },
+        "5c4792fc-ee3e-4bf5-8785-6284a8749846": {
+          "type": "blockLeft",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/right-arrow.png",
+            "title": "<h3><strong>Easy Signup Process<\/strong><\/h3>",
+            "text": "<p>Keep the account creation process simple, with minimal information required. Focus on essentials such as password, and basic contact information.<\/p>"
+          }
+        },
+        "d550341d-885f-4e00-aeef-2e773903a909": {
+          "type": "blockLeft",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/calendar.png",
+            "title": "<h3><strong>Capture Customers' Birthdates<\/strong><\/h3>",
+            "text": "<p>Requesting the customer's date of birth during signup can help personalize their experience, offer birthday discounts or promotions, and segment your marketing efforts.<\/p>"
+          }
+        },
+        "a43015f5-b08b-4184-b961-90f39a9ea2c5": {
+          "type": "blockRight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bookmark-white.png",
+            "title": "<h3><strong>Auto-Tagging for Marketing Segmentation<\/strong><\/h3>",
+            "text": "<p>Implements a system that automatically tags orders and customers to better target and personalize marketing efforts.<\/p>"
+          }
+        },
+        "d78748f4-2ee7-40a3-b3d8-a7cb1a5d329d": {
+          "type": "blockRight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/megaphone.png",
+            "title": "<h3><strong>Opt-In Communication Options<\/strong><\/h3>",
+            "text": "<p>Allow users to opt into SMS and\/or email communications, integrating seamlessly with Shopify and Klaviyo to enhance customer engagement.<\/p>"
+          }
+        },
+        "d5c81d5b-2e24-442e-83fc-e2f296a3f655": {
+          "type": "blockRight",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gift.png",
+            "title": "<h3><strong>Incentives and Offers<\/strong><\/h3>",
+            "text": "<p>Offer exclusive discounts, or other benefits to customers who sign up for an account after their purchase.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "8f651bf7-01ee-4b0b-857e-07a0e8641f0f",
+        "5c4792fc-ee3e-4bf5-8785-6284a8749846",
+        "d550341d-885f-4e00-aeef-2e773903a909",
+        "a43015f5-b08b-4184-b961-90f39a9ea2c5",
+        "d78748f4-2ee7-40a3-b3d8-a7cb1a5d329d",
+        "d5c81d5b-2e24-442e-83fc-e2f296a3f655"
+      ],
+      "settings": {
+        "feature_image": "shopify:\/\/shop_images\/easy-account-creation.png",
+        "show_button": true,
+        "button_text": "Install the App Now!",
+        "button_link": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "hover_effect": false,
+        "section_padding": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "713dbc3b-d704-423b-ac6c-6635f9227e8c",
+    "e613a856-4db1-4bfb-921f-d54878b2f890",
+    "4a62042b-4bcd-4792-8768-a2eeae454968",
+    "8d249a6a-1af8-49ca-a3d0-98b75ee1882c",
+    "cdf3f630-7908-4e01-8e12-eba236a62ebe",
+    "6ada89d4-c3bb-467b-93c3-396217c26d56",
+    "a64f5c98-165f-4e15-9cca-19e32f5561b8",
+    "e6f94e94-ebdd-452c-8d93-1971b2c5c89e",
+    "0f6592ad-0dc5-450c-89d7-fa444f9bf001"
+  ]
+}

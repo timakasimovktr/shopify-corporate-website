@@ -1,0 +1,123 @@
+.header-wrapper .header--middle-left,
+.header__heading-link .header__heading-logo-wrapper,
+.footer__copyright.caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__blocks-wrapper .footer-block.grid__item {
+  width: 10%;
+}
+
+.footer__blocks-wrapper .footer-block.grid__item:first-of-type {
+  width: 22%;
+}
+
+.footer__copyright.caption {
+  width: 100%;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__blocks-wrapper {
+  gap: 6rem !important;
+}
+
+.footer-block__details-content>p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.logo-text {
+  display: block;
+  margin: 0 0 0 8px;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+/* Policies Pages Starts */
+
+.shopify-policy__container {
+  max-width: unset !important;
+  padding: 0 !important;
+}
+
+.shopify-policy__title {
+  padding: 60px 0;
+  background-color: #111;
+}
+
+.shopify-policy__title h1 {
+  margin: 0;
+  font-size: 4.58rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700 !important;
+}
+
+.shopify-policy__body {
+  padding: 10rem 1.5rem 6rem;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.shopify-policy__body .rte {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+  margin: 0 auto;
+}
+
+.shopify-policy__body .rte h2.mt-5 {
+  font-size: 2.25rem;
+  margin: 4.5rem 0 .75rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.21;
+}
+
+.shopify-policy__body .rte p {
+  font-size: 1.5rem;
+  margin-bottom: 1.87rem;
+}
+
+/* Policies Pages Ends */
+
+@media (max-width: 990px) {
+  .header-wrapper .header--middle-left {
+    flex-direction: row-reverse;
+  }
+
+  .footer__blocks-wrapper .footer-block.grid__item:first-of-type {
+    width: unset !important;
+  }
+
+  .footer__copyright.caption {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 748px) {
+  .footer__blocks-wrapper .footer-block.grid__item {
+    width: unset !important;
+  }
+  
+  .shopify-policy__body {
+    padding: 6rem 1.5rem 5.5rem;
+  }
+
+  .shopify-policy__body .rte {
+    max-width: unset;
+    width: 100%;
+  }
+
+  .shopify-policy__title h1 {
+    font-size: 3.1rem;
+  }
+}

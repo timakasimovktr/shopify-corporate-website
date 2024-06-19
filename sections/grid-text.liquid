@@ -1,0 +1,88 @@
+{{ 'grid-text.css' | asset_url | stylesheet_tag }}
+{% assign ss = section.settings %}
+<style>
+  {% if ss.show_border %}
+      .grid-section .block {
+        border: 1px solid rgb(219, 219, 219);
+      }
+  {% endif %}
+</style>
+<section
+  class="grid-section page-width"
+  style="padding: {{ ss.section_top_padding }}px 0 {{ ss.section_bottom_padding }}px 0;"
+>
+  <div class="grid-wrapper">
+    {% for block in section.blocks %}
+      <div class="block">
+        <div class="grid-heading montserrat">
+          {{ block.settings.title }}
+        </div>
+        <div class="grid-body">
+          {{ block.settings.text }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Grid Blocks Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "feature_image",
+      "label": "Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_border",
+      "label": "Show Border",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "section_top_padding",
+      "label": "Section TOP Padding",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "section_bottom_padding",
+      "label": "Section BOTTOM Padding",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "Block",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Grid Blocks Section"
+    }
+  ]
+}
+{% endschema %}

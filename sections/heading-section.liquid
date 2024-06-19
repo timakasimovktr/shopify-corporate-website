@@ -1,0 +1,130 @@
+{% assign ss = section.settings %}
+
+{% style %}
+  .heading-section {
+    width: 100%;
+  }
+  .heading-section .special-text {
+    text-transform: uppercase;
+  }
+  .heading-section .text-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .heading-section .text-wrapper *{
+    margin: 0;
+  }
+{% endstyle %}
+
+<section {% if section.settings.id != blank %} id="{{section.settings.id }}" {% endif %} class="heading-section" style="padding: {{ ss.section_padding }}px 0;">
+  <div
+    class="page-width text-wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    style="
+      text-align: {{ ss.text_align }};
+      align-items: {% if ss.text_align == "left" %} flex-start {% elsif ss.text_align == "right" %} flex-end {% else %} center {% endif %};
+    "
+  >
+    <div class="special-text {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="margin-bottom: {{ ss.special_text_margin_bottom }}px;">
+      {{ ss.special_text }}
+    </div>
+    <div class="heading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="margin-bottom: {{ ss.heading_margin_bottom }}px; max-width: {{ ss.heading_width }}px;">
+      {{ ss.heading }}
+    </div>
+    <div class="subheading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="max-width: {{ ss.heading_width }}px;">
+      {{ ss.subheading }}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Heading Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "id",
+      "label": "Section ID"
+    },
+    {
+      "type": "richtext",
+      "id": "special_text",
+      "label": "Special Text"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "heading_width",
+      "label": "Heading Width",
+      "min": 0,
+      "max": 1200,
+      "step": 20,
+      "unit": "px",
+      "default": 1000
+    },
+    {
+      "type": "range",
+      "id": "heading_margin_bottom",
+      "label": "Heading Margin Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "special_text_margin_bottom",
+      "label": "Special Text Margin Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section Padding",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    }
+  ],
+  "presets": [
+    {
+      "name": "Heading Section"
+    }
+  ]
+}
+{% endschema %}

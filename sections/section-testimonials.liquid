@@ -1,0 +1,154 @@
+{{ 'section-testimonials.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'section-testimonials.js' | asset_url }}" defer="defer"></script>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 992px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section {% if section.settings.id != blank %} id="{{section.settings.id }}" {% endif %} class="testimonial-section page-width section-{{ section.id }}-padding {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div class="testimonial__content">
+    <div class="container">
+      <h2 class="heading montserrat {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>
+      <div class="desc {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.description }}</div>
+      <div class="images">
+        {% for block in section.blocks %}
+          {%- if block.type == "image" and block.settings.image != blank -%}
+            <div class="image {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              <img
+                src="{{ block.settings.image | img_url: 'master' }}"
+                width="100"
+                height="100"
+                alt="{{ block.settings.image.alt }}">
+            </div>
+          {%- endif -%}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="testimonial__slider">
+    <div class="slider {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {% for block in section.blocks %}
+        {%- if block.type == "comment" -%}
+          <div class="slide">
+            <div class="comment">
+              <div class="comment__content">
+                <div class="comment__author">
+                  <h3 class="comment__author-name montserrat">{{ block.settings.name }}</h3>
+                  <span class="comment__author-company">{{ block.settings.company }}</span>
+                </div>
+                <div class="comment__text">
+                  <p>
+                    <span class="quote">
+                      {% render 'icon-quote' %}
+                    </span>
+                    {{ block.settings.comment }}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
+      {% endfor %}
+    </div>
+    <div class="slider-icons">
+      <button data-button="prev" class="icon icon-prev">
+        <
+      </button>
+      <button data-button="next" class="icon icon-next">
+        >
+      </button>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Testimonial Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "id",
+        "label": "Section ID"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Testimonials"
+      }, {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description",
+        "default": "<p>Description</p>"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }, {
+        "type": "comment",
+        "name": "Comment",
+        "settings": [
+          {
+            "type": "text",
+            "id": "name",
+            "label": "Name"
+          }, {
+            "type": "text",
+            "id": "company",
+            "label": "Company"
+          }, {
+            "type": "textarea",
+            "id": "comment",
+            "label": "Comment"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Testimonial Section"
+      }
+    ]
+  }
+{% endschema %}

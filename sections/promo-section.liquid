@@ -1,0 +1,171 @@
+{{ 'promo-section.css' | asset_url | stylesheet_tag }}
+{% assign ss = section.settings %}
+
+{% style %}
+  .promo-section {
+    width: 100%;
+  }
+  .promo-section .special-text {
+    text-transform: uppercase;
+  }
+  .promo-section .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+  .promo-section .text-wrapper * {
+    margin: 0;
+  }
+{% endstyle %}
+
+<section {% if ss.id != blank %} id="{{ss.id }}" {% endif %} class="promo-section" style="padding: {{ ss.section_padding }}px 0; background: {{ss.background_color}}; {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div
+    class="page-width text-wrapper"
+    style="
+      text-align: {{ ss.text_align }};
+      align-items: {% if ss.text_align == "left" %} flex-start {% elsif ss.text_align == "right" %} flex-end {% else %} center {% endif %};
+    "
+  >
+    <div
+      class="special-text"
+      style="margin-bottom: {{ ss.special_text_margin_bottom }}px !important;"
+    >
+      {{ ss.special_text }}
+    </div>
+    <div
+      class="heading"
+      style="margin-bottom: {{ ss.heading_margin_bottom }}px !important; max-width: {{ ss.heading_width }}px;"
+    >
+      {{ ss.heading }}
+    </div>
+  </div>
+  <div class="page-width card-wrapper">
+    {%- for block in section.blocks -%}
+      <div class="card">
+        <div class="card-img">
+          <img src="{{ block.settings.image | image_url: width: 32 }}" alt="{{ block.settings.title }}">
+        </div>
+        <div class="card-content">
+          <div class="card-heading">{{ block.settings.title }}</div>
+          <div class="card-paragraph">{{ block.settings.text }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Promo Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "id",
+      "label": "Section ID"
+    },
+    {
+      "type": "richtext",
+      "id": "special_text",
+      "label": "Special Text"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "range",
+      "id": "heading_width",
+      "label": "Heading Width",
+      "min": 0,
+      "max": 1200,
+      "step": 20,
+      "unit": "px",
+      "default": 1000
+    },
+    {
+      "type": "range",
+      "id": "heading_margin_bottom",
+      "label": "Heading Margin Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "special_text_margin_bottom",
+      "label": "Special Text Margin Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section Padding",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Promo Section"
+    }
+  ]
+}
+{% endschema %}

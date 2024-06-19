@@ -1,0 +1,90 @@
+.clients .clients-header {
+  text-align: center;
+  -ms-flex: 0 0 66%;
+  flex: 0 0 66%;
+  max-width: 66%;
+  margin: 0 auto;
+}
+
+.clients-header .heading {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.clients-header .desc {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-wrapper {
+  align-items: center;
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
+
+.swiper-slide img {
+  visibility: visible !important;
+  display: block;
+  margin: 0 auto;
+  max-width: 105px;
+  margin: 8px auto;
+  height: auto;
+  object-fit: cover;
+  filter: grayscale(100%);
+  -webkit-transition: -webkit-transform .5s ease-in;
+  transition: -webkit-transform .5s ease-in;
+  transition: transform .5s ease-in;
+  transition: transform .5s ease-in, -webkit-transform .5s ease-in;
+}
+
+.swiper-slide:hover img {
+  filter: grayscale(0%);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-pagination {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  transform: scale(0.8);
+  transition: 0.3s;
+  margin: 5px 7px;
+}
+
+
+.swiper-pagination-bullet-active {
+  background: #111;
+  border: 2px solid transparent;
+}
+
+@media (max-width: 989px) {
+  .clients .clients-header {
+    width: 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,124 @@
+.feature-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature-section .feature-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1320px;
+}
+
+.feature-section .left-feature,
+.feature-section .feature-img,
+.feature-section .right-feature {
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature-section .feature {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.feature-section .feature:not(:last-child) {
+    margin-bottom: 45px;
+}
+
+.feature-section .feature .feature-icon {
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.feature-section .feature .feature-icon img {
+    max-width: 22px;
+    max-height: 22px;
+}
+
+.feature-section .feature .feature-content .feature-title {
+    margin-bottom: 15px;
+}
+
+.feature-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.feature-section .feature * {
+    margin: 0;
+}
+
+.feature-section .feature-img img {
+    max-width: 100%;
+}
+
+/* media max width */
+@media screen and (max-width: 1400px) {
+    .feature-section .feature-wrapper {
+        max-width: 1140px;
+    }
+
+    .feature-section .left-feature,
+    .feature-section .right-feature {
+        width: 35%;
+    }
+
+    .feature-section .feature-img {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .feature-section .feature-wrapper {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .feature-section .feature-wrapper {
+        flex-direction: column;
+    }
+
+    .feature-section .left-feature,
+    .feature-section .feature-img,
+    .feature-section .right-feature {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+
+    .feature-section .right-feature{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .feature-section .left-feature,
+    .feature-section .feature-img,
+    .feature-section .right-feature {
+        width: 100%;
+    }
+
+    .feature-section .feature-img img {
+        width: 100%;
+    }
+    
+}

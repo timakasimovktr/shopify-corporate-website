@@ -1,0 +1,135 @@
+{
+  "sections": {
+    "531051d3-3c33-4ad2-acb7-5dafb8406d9d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19362636693783__531051d3-3c33-4ad2-acb7-5dafb8406d9d-1686563956795cb75d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Upsell and Cross Sell Ul<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19362636693783__531051d3-3c33-4ad2-acb7-5dafb8406d9d-1686563956795cb75d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Upsells & Cross Sells is a powerful solution for boosting your e-commerce sales. Our app allows you to seamlessly add upsells and cross-sells to cart and blog pages, increasing the average order value and driving more revenue for your business.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19362636693783__531051d3-3c33-4ad2-acb7-5dafb8406d9d-1686563956795cb75d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Install the App",
+            "button_link": "shopify:\/\/pages\/upsell"
+          }
+        }
+      },
+      "block_order": [
+        "template--19362636693783__531051d3-3c33-4ad2-acb7-5dafb8406d9d-1686563956795cb75d-0",
+        "template--19362636693783__531051d3-3c33-4ad2-acb7-5dafb8406d9d-1686563956795cb75d-1",
+        "template--19362636693783__531051d3-3c33-4ad2-acb7-5dafb8406d9d-1686563956795cb75d-2"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/shopify-application-development.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "hover_effect": true,
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_mobile_padding_bottom": 20,
+        "content_mobile_padding_bottom": 48,
+        "section_border": false,
+        "border_padding_bottom_top": 0,
+        "border_padding_left_right": 0,
+        "section_hover_animation": false
+      }
+    },
+    "59781434-8a0f-49ae-a4c9-6b5bda52f755": {
+      "type": "section-testimonials",
+      "blocks": {
+        "8bbc112d-12e4-4ea7-a46e-bcd34b103570": {
+          "type": "comment",
+          "settings": {
+            "name": "Ross McGraw",
+            "company": "Hammerhead",
+            "comment": "Llama Commerce was resource when it comes to getting the functionality you need out of Shopify. They helped us build complex checkout functionality in an incredibly fast-paced and high-pressure environment. Their attention to detail and responsiveness allowed us to move quickly and put our customer experience first."
+          }
+        },
+        "485b5da3-cec4-4539-ba09-98fb8944f020": {
+          "type": "comment",
+          "settings": {
+            "name": "Miro Khoudari",
+            "company": "Kassatex",
+            "comment": "Llama Commerce is a fantastic development team and would highly recommend them for your Shopify plus store!! Their services are A++ which is sometimes difficult to get in the space."
+          }
+        },
+        "d5ce540a-3e9e-4dd2-a6fc-9b4bd71bc2fa": {
+          "type": "comment",
+          "settings": {
+            "name": "Yuvraj Mehra",
+            "company": "Global DTC Tech Operations Manager at Reckitt",
+            "comment": "Llama Commerce is a great development team, phenomenal to work with, they have a great work ethic, and they are very creative in terms of finding solutions for problems. They are very experienced in Shopify and have done some complex development work for us. Their quality of work is exceptional and they helped us elevate the performance of the rest of the team by guiding them on best in class development practices"
+          }
+        },
+        "5fe40c2a-bd06-47f4-8f46-a168ee5c8463": {
+          "type": "comment",
+          "settings": {
+            "name": "Michael Foss",
+            "company": "Manager, Web Development at Zymo Research Corp",
+            "comment": "Llama Commerce team is a Shopify Wizard!  They were able to clean up quite a bit of our Cart, Checkout and Scripts logic in Shopify.  They are fantastic at developing with the current best practices and standards, while implementing clean code.  They helped us with building out our new Geolocation models while creating a custom ordering system for our customers with special pricing needs.  Llama Commerce team's great to work and collaborate with"
+          }
+        },
+        "74a33d2b-1728-4be8-953b-153a7b8958dc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-7-color.png"
+          }
+        },
+        "f0aac067-5899-45c3-a201-dd5e8b8dcead": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-2-color.png"
+          }
+        },
+        "c846d6e4-d51e-49cf-ac4b-c98ac97c4a57": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-6-color.png"
+          }
+        }
+      },
+      "block_order": [
+        "8bbc112d-12e4-4ea7-a46e-bcd34b103570",
+        "485b5da3-cec4-4539-ba09-98fb8944f020",
+        "d5ce540a-3e9e-4dd2-a6fc-9b4bd71bc2fa",
+        "5fe40c2a-bd06-47f4-8f46-a168ee5c8463",
+        "74a33d2b-1728-4be8-953b-153a7b8958dc",
+        "f0aac067-5899-45c3-a201-dd5e8b8dcead",
+        "c846d6e4-d51e-49cf-ac4b-c98ac97c4a57"
+      ],
+      "settings": {
+        "id": "",
+        "heading": "Success Stories",
+        "description": "<p>Discover why CTO's and Executives from top brands across industries recommend our services. Read their testimonials.<\/p>",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "531051d3-3c33-4ad2-acb7-5dafb8406d9d",
+    "59781434-8a0f-49ae-a4c9-6b5bda52f755"
+  ]
+}

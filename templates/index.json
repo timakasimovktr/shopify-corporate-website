@@ -1,0 +1,617 @@
+{
+  "sections": {
+    "713dbc3b-d704-423b-ac6c-6635f9227e8c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Helping Entrepreneurs Scale Their Companies Faster<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Augment your team, accelerate your growth, and achieve your business goals with Llama Commerce's expertise in staff augmentation and product development.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-0",
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-1"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/llama_intro.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "hover_effect": false,
+        "button_background": "#a8a8a8",
+        "button_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "image_mobile_padding_bottom": 36,
+        "content_mobile_padding_bottom": 36,
+        "section_border": false,
+        "border_padding_bottom_top": 0,
+        "border_padding_left_right": 0,
+        "section_hover_animation": false
+      }
+    },
+    "ee9a39a3-b95d-4967-be45-73e852e3889b": {
+      "type": "section-clients-slider",
+      "blocks": {
+        "332e8b2c-79a5-4819-9fa2-5f0a3b56df14": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-1-color.png"
+          }
+        },
+        "a06db7dd-ff8c-46db-9506-4f7e81c2d0f8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-2-color_af453c0e-a169-4be6-a304-80d204585e0f.png"
+          }
+        },
+        "67975a38-31d2-4ab2-a4bb-6f9236a8ad25": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-3-color.png"
+          }
+        },
+        "cc002b8d-89d7-45cf-a89c-bbfa324368cd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-4-color.png"
+          }
+        },
+        "c69aefaa-bcc7-475a-bccd-4850c5cc2a9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-fedex.png"
+          }
+        },
+        "466038f1-11a9-441f-adeb-4cdb2a0a51ba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-5-color.png"
+          }
+        },
+        "41067826-df95-469b-b83d-597249fba3fd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-6-color_39a96ecd-1ea3-4dfc-9da3-7186ba322ee0.png"
+          }
+        },
+        "8956f35f-2386-4a7a-9440-9813115efe39": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/coca-cola.png"
+          }
+        },
+        "5494bba1-cca0-4afb-ad03-448990909ff0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-8-color_3eaddd01-2fd2-4672-97c4-d5404275dd3c.png"
+          }
+        },
+        "475fe557-470a-40c1-869c-acc23da76297": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/loccitane.png"
+          }
+        },
+        "7e5b7759-fbe9-4bd8-937a-e803a7cbcdca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-10-color.webp"
+          }
+        },
+        "6d7a3d00-5f84-4be7-aa55-2cf31bdba473": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/universal.webp"
+          }
+        }
+      },
+      "block_order": [
+        "332e8b2c-79a5-4819-9fa2-5f0a3b56df14",
+        "a06db7dd-ff8c-46db-9506-4f7e81c2d0f8",
+        "67975a38-31d2-4ab2-a4bb-6f9236a8ad25",
+        "cc002b8d-89d7-45cf-a89c-bbfa324368cd",
+        "c69aefaa-bcc7-475a-bccd-4850c5cc2a9b",
+        "466038f1-11a9-441f-adeb-4cdb2a0a51ba",
+        "41067826-df95-469b-b83d-597249fba3fd",
+        "8956f35f-2386-4a7a-9440-9813115efe39",
+        "5494bba1-cca0-4afb-ad03-448990909ff0",
+        "475fe557-470a-40c1-869c-acc23da76297",
+        "7e5b7759-fbe9-4bd8-937a-e803a7cbcdca",
+        "6d7a3d00-5f84-4be7-aa55-2cf31bdba473"
+      ],
+      "custom_css": [
+        ".swiper-pagination {display: none !important;}"
+      ],
+      "settings": {
+        "margin__bottom": 10,
+        "heading": "Trusted by Top Brands",
+        "heading_size": "h1",
+        "content": "Partner with the trusted engineering team trusted by leading e-commerce brands and Fortune 500 companies.",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "a42456ff-1456-4335-9d1f-d8ddb473b4b6": {
+      "type": "section-with-details",
+      "blocks": {
+        "0d0f20a8-d669-4438-83fe-4a26dfc30d92": {
+          "type": "details",
+          "settings": {
+            "title": "<strong>250<\/strong>",
+            "content": "Shopify Plus Stores"
+          }
+        },
+        "42155836-f95a-45c5-b1ea-0151a976f112": {
+          "type": "details",
+          "settings": {
+            "title": "<strong>3.5<\/strong>",
+            "content": "Years Average Client Retention"
+          }
+        },
+        "c9aa8745-92da-424e-98d2-3865f0f63ab7": {
+          "type": "details",
+          "settings": {
+            "title": "<strong>5<\/strong>",
+            "content": "Years of Experience"
+          }
+        },
+        "ae2ca1ab-7743-4f42-9a2b-2d80eb710827": {
+          "type": "details",
+          "settings": {
+            "title": "<strong>100K+<\/strong>",
+            "content": "Shopify App Users"
+          }
+        }
+      },
+      "block_order": [
+        "0d0f20a8-d669-4438-83fe-4a26dfc30d92",
+        "42155836-f95a-45c5-b1ea-0151a976f112",
+        "c9aa8745-92da-424e-98d2-3865f0f63ab7",
+        "ae2ca1ab-7743-4f42-9a2b-2d80eb710827"
+      ],
+      "settings": {
+        "id": "about",
+        "background_color": "#f1f1f1",
+        "heading": "Who We Are",
+        "heading_size": "h1",
+        "description": "<p>At Llama Commerce, we understand that successful software development requires a holistic approach that considers both technical and process-related factors. Our team of experienced developers, project managers, and quality assurance experts work together to deliver high-quality software that meets your business needs. We prioritize collaboration, communication, and testing to ensure that your project is delivered on time and to the highest standards of quality.<\/p><p>If you're tired of struggling with software development challenges, contact us today to learn how we can help you achieve your development goals.<\/p>",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "6c95996b-437c-46c0-aa37-37fc43e14f49": {
+      "type": "heading-section",
+      "settings": {
+        "id": "services",
+        "special_text": "",
+        "heading": "<h1><strong>Our Services<\/strong><\/h1>",
+        "subheading": "<p>Specializing in the delivery of tailor-made technology solutions for startups, small businesses, and enterprises. Our services range from fully managed teams to individual expert software developers, ensuring a solid end-to-end process.<\/p>",
+        "text_align": "center",
+        "heading_width": 680,
+        "heading_margin_bottom": 10,
+        "special_text_margin_bottom": 0,
+        "section_padding": 50
+      }
+    },
+    "5a7a0bac-9b03-4da1-9da9-749e6b6d421f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19362636693783__5a7a0bac-9b03-4da1-9da9-749e6b6d421f-16865750413e3ae32d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Custom Shopify App Development<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19362636693783__5a7a0bac-9b03-4da1-9da9-749e6b6d421f-16865750413e3ae32d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our firm specializes in developing unique Shopify applications tailored to your business needs. We enhance the functionality of your online store, streamline its operations, and stimulate its growth. <\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19362636693783__5a7a0bac-9b03-4da1-9da9-749e6b6d421f-16865750413e3ae32d-0",
+        "template--19362636693783__5a7a0bac-9b03-4da1-9da9-749e6b6d421f-16865750413e3ae32d-1"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/shopify-app-development.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "hover_effect": false,
+        "button_background": "#a8a8a8",
+        "button_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "image_mobile_padding_bottom": 36,
+        "content_mobile_padding_bottom": 36,
+        "section_border": true,
+        "border_padding_bottom_top": 36,
+        "border_padding_left_right": 20,
+        "section_hover_animation": true
+      }
+    },
+    "5a7a0bac-9b03-4da1-9da9-749e6b6d412f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19362636693783__5a7a0bac-9b03-4da1-9da9-749e6b6d421f-16865750413e3ae32d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>System Integration Solutions<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19362636693783__5a7a0bac-9b03-4da1-9da9-749e6b6d421f-16865750413e3ae32d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Make your work easier and get more done with our expert team that helps put together your Shopify or other systems and tools. This will give you extra time for growing and coming up with new ideas. Find out how making things work smoothly can help you now.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19362636693783__5a7a0bac-9b03-4da1-9da9-749e6b6d421f-16865750413e3ae32d-0",
+        "template--19362636693783__5a7a0bac-9b03-4da1-9da9-749e6b6d421f-16865750413e3ae32d-1"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/system-integration.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "hover_effect": true,
+        "button_background": "#000000",
+        "button_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "image_mobile_padding_bottom": 36,
+        "content_mobile_padding_bottom": 36,
+        "section_border": true,
+        "border_padding_bottom_top": 36,
+        "border_padding_left_right": 20,
+        "section_hover_animation": true
+      }
+    },
+    "76407f6b-4b93-49b9-ac64-3c2077c3e6fd": {
+      "type": "grid-text",
+      "blocks": {
+        "a5ff5b4a-47bf-4caa-ad4e-ca07d7f8e6d6": {
+          "type": "block",
+          "settings": {
+            "title": "<h2><strong>Dedicated Teams<\/strong><\/h2>",
+            "text": "<p>Llama Commerce's expert team of Project Managers, Software Engineers and Quality Assurance Engineers, work together as a unit to quickly deliver end-to-end technology solutions. They are jointly managed by a Scrum Master and Engineering Manager from Llama Commerce and the client's product owner to ensure successful outcomes.<\/p>"
+          }
+        },
+        "090763fc-528f-470e-9faf-aa477a358e21": {
+          "type": "block",
+          "settings": {
+            "title": "<h2><strong>Team Expansion<\/strong><\/h2>",
+            "text": "<p>Expand your team with highly skilled professionals. Our Team Expansion services provide you with the resources you need to tackle your next project and meet your specific project requirements. Access the talent you need to succeed.<\/p>"
+          }
+        },
+        "263e44d9-aa38-4715-a36d-add7af08c8b5": {
+          "type": "block",
+          "settings": {
+            "title": "<h2><strong>Prototype and Product Development<\/strong><\/h2>",
+            "text": "<p>Bring your ideas to life with our prototype and product development services. Our team of experts will guide you through the development process and help you launch your next big idea.<\/p>"
+          }
+        },
+        "550af227-83eb-41ac-ab5d-b36b66c5cda9": {
+          "type": "block",
+          "settings": {
+            "title": "<h2><strong>QA Engineering Services<\/strong><\/h2>",
+            "text": "<p>Our software tester services ensure a seamless end-user experience by rigorously testing and performing quality assurance on your software. We identify and fix potential issues before release, maximizing customer satisfaction and ensuring your software runs smoothly.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a5ff5b4a-47bf-4caa-ad4e-ca07d7f8e6d6",
+        "090763fc-528f-470e-9faf-aa477a358e21",
+        "263e44d9-aa38-4715-a36d-add7af08c8b5",
+        "550af227-83eb-41ac-ab5d-b36b66c5cda9"
+      ],
+      "settings": {
+        "show_border": true,
+        "section_top_padding": 50,
+        "section_bottom_padding": 50
+      }
+    },
+    "713dbc3b-d704-423b-ac6c-6635f9227d2c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Need to Integrate your ERP with Shopify?<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking to streamline your e-commerce workflows? Integrated Salesforce, Oracle, and SAP systems with your Shopify. Our integration services can help you with that. Contact us today.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-0",
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-1"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/erp-integration.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "hover_effect": false,
+        "button_background": "#a8a8a8",
+        "button_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "image_mobile_padding_bottom": 36,
+        "content_mobile_padding_bottom": 36,
+        "section_border": false,
+        "border_padding_bottom_top": 0,
+        "border_padding_left_right": 0,
+        "section_hover_animation": false
+      }
+    },
+    "3f9d5a1b-3865-44e2-80a1-fb180829d8d1": {
+      "type": "section-clients-slider",
+      "blocks": {
+        "a38e14e2-4b2e-45cc-bb2f-e89b5dd60b26": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/netlify.png"
+          }
+        },
+        "a5961d65-7adb-4fd0-93c3-4ab4cdd93ad8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/vercel.png"
+          }
+        },
+        "c9be6ab3-8d9d-4fb1-855a-9747da2e9c84": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hydrogen.png"
+          }
+        },
+        "1fd08b21-4b00-43e3-aaf9-91df7ac1bd35": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shopify-plus.png"
+          }
+        },
+        "d1bf3c84-38b5-44ee-a20c-25b1d8130608": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sanity.png"
+          }
+        },
+        "40e0ae4b-56e4-47d1-ac5c-1e3971ca5d92": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/contenful_5aa7300f-113e-4781-9fbe-a3b95a74cc9b.png"
+          }
+        },
+        "f7e6f210-8aab-4377-a802-b229807ddf96": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/recharge-logo.svg"
+          }
+        },
+        "05a40208-46bb-4ace-beb9-37225b315a1d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yotpo-logo.svg"
+          }
+        }
+      },
+      "block_order": [
+        "a38e14e2-4b2e-45cc-bb2f-e89b5dd60b26",
+        "a5961d65-7adb-4fd0-93c3-4ab4cdd93ad8",
+        "c9be6ab3-8d9d-4fb1-855a-9747da2e9c84",
+        "1fd08b21-4b00-43e3-aaf9-91df7ac1bd35",
+        "d1bf3c84-38b5-44ee-a20c-25b1d8130608",
+        "40e0ae4b-56e4-47d1-ac5c-1e3971ca5d92",
+        "f7e6f210-8aab-4377-a802-b229807ddf96",
+        "05a40208-46bb-4ace-beb9-37225b315a1d"
+      ],
+      "settings": {
+        "margin__bottom": 36,
+        "heading": "Technology & Partnerships",
+        "heading_size": "h1",
+        "content": "Discover the power of innovation through our advanced technology solutions & strategic partnerships, fueling growth & success for businesses worldwide.",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "713dbc3b-d704-423b-ac6c-66354g227d2c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Shopify App Development Services<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Llama Commerce, we specialize in Shopify app development and can bring our proven expertise to help you create your next Shopify app. Our skilled team can assist you in launching your app quickly and making it available to millions of Shopify stores..<\/p>",
+            "text_style": "body"
+          }
+        },
+        "9cc12565-6ef2-444a-a645-1af4cfea8d43": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our Shopify Apps",
+            "button_link": "https:\/\/apps.shopify.com\/partners\/llama-commerce-llc"
+          }
+        }
+      },
+      "block_order": [
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-0",
+        "template--19395078357271__713dbc3b-d704-423b-ac6c-6635f9227e8c-1686734586e36bebdb-1",
+        "9cc12565-6ef2-444a-a645-1af4cfea8d43"
+      ],
+      "settings": {
+        "id": "",
+        "image": "shopify:\/\/shop_images\/shopify-application-development_a86b2730-58c1-4635-8732-fa8f9cd1f96b.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "mobile_layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "inverse",
+        "hover_effect": true,
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "image_mobile_padding_bottom": 36,
+        "content_mobile_padding_bottom": 36,
+        "section_border": false,
+        "border_padding_bottom_top": 0,
+        "border_padding_left_right": 0,
+        "section_hover_animation": false
+      }
+    },
+    "59781434-8a0f-49ae-a4c9-6b5bda52f758": {
+      "type": "section-testimonials",
+      "blocks": {
+        "8bbc112d-12e4-4ea7-a46e-bcd34b103570": {
+          "type": "comment",
+          "settings": {
+            "name": "Ross McGraw",
+            "company": "Hammerhead",
+            "comment": "Llama Commerce was resource when it comes to getting the functionality you need out of Shopify. They helped us build complex checkout functionality in an incredibly fast-paced and high-pressure environment. Their attention to detail and responsiveness allowed us to move quickly and put our customer experience first."
+          }
+        },
+        "485b5da3-cec4-4539-ba09-98fb8944f020": {
+          "type": "comment",
+          "settings": {
+            "name": "Miro Khoudari",
+            "company": "Kassatex",
+            "comment": "Llama Commerce is a fantastic development team and would highly recommend them for your Shopify plus store!! Their services are A++ which is sometimes difficult to get in the space."
+          }
+        },
+        "d5ce540a-3e9e-4dd2-a6fc-9b4bd71bc2fa": {
+          "type": "comment",
+          "settings": {
+            "name": "Yuvraj Mehra",
+            "company": "Global DTC Tech Operations Manager at Reckitt",
+            "comment": "Llama Commerce is a great development team, phenomenal to work with, they have a great work ethic, and they are very creative in terms of finding solutions for problems. They are very experienced in Shopify and have done some complex development work for us. Their quality of work is exceptional and they helped us elevate the performance of the rest of the team by guiding them on best in class development practices"
+          }
+        },
+        "5fe40c2a-bd06-47f4-8f46-a168ee5c8463": {
+          "type": "comment",
+          "settings": {
+            "name": "Michael Foss",
+            "company": "Manager, Web Development at Zymo Research Corp",
+            "comment": "Llama Commerce team is a Shopify Wizard!  They were able to clean up quite a bit of our Cart, Checkout and Scripts logic in Shopify.  They are fantastic at developing with the current best practices and standards, while implementing clean code.  They helped us with building out our new Geolocation models while creating a custom ordering system for our customers with special pricing needs.  Llama Commerce team's great to work and collaborate with"
+          }
+        },
+        "74a33d2b-1728-4be8-953b-153a7b8958dc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-7-color.png"
+          }
+        },
+        "f0aac067-5899-45c3-a201-dd5e8b8dcead": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-2-color.png"
+          }
+        },
+        "c846d6e4-d51e-49cf-ac4b-c98ac97c4a57": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-6-color.png"
+          }
+        }
+      },
+      "block_order": [
+        "8bbc112d-12e4-4ea7-a46e-bcd34b103570",
+        "485b5da3-cec4-4539-ba09-98fb8944f020",
+        "d5ce540a-3e9e-4dd2-a6fc-9b4bd71bc2fa",
+        "5fe40c2a-bd06-47f4-8f46-a168ee5c8463",
+        "74a33d2b-1728-4be8-953b-153a7b8958dc",
+        "f0aac067-5899-45c3-a201-dd5e8b8dcead",
+        "c846d6e4-d51e-49cf-ac4b-c98ac97c4a57"
+      ],
+      "settings": {
+        "id": "",
+        "heading": "Success Stories",
+        "description": "<p>Discover why CTO's and Executives from top brands across industries recommend our services. Read their testimonials.<\/p>",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "713dbc3b-d704-423b-ac6c-6635f9227e8c",
+    "ee9a39a3-b95d-4967-be45-73e852e3889b",
+    "a42456ff-1456-4335-9d1f-d8ddb473b4b6",
+    "6c95996b-437c-46c0-aa37-37fc43e14f49",
+    "5a7a0bac-9b03-4da1-9da9-749e6b6d421f",
+    "5a7a0bac-9b03-4da1-9da9-749e6b6d412f",
+    "76407f6b-4b93-49b9-ac64-3c2077c3e6fd",
+    "713dbc3b-d704-423b-ac6c-6635f9227d2c",
+    "3f9d5a1b-3865-44e2-80a1-fb180829d8d1",
+    "713dbc3b-d704-423b-ac6c-66354g227d2c",
+    "59781434-8a0f-49ae-a4c9-6b5bda52f758"
+  ]
+}

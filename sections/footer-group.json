@@ -1,0 +1,89 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "a18fd6e2-fc51-4026-a4a1-54cb3cbaaafb": {
+      "type": "contact",
+      "settings": {
+        "id": "contact",
+        "heading": "Schedule a Demo",
+        "heading_size": "h2",
+        "content": "<p>Are you ready to take your business to the next level? Contact our team and share your vision with us. Let us help you transform your company into everything it was always meant to be. <\/p><p>                                                                   Email:  <a href=\"mailto:hello@llamacommerce.io\">hello@llamacommerce.io<\/a><\/p>",
+        "background_color": "#f1f1f1",
+        "color_scheme": "background-1",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff",
+        "hover_effect": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "f61505c3-93c1-4f15-bdc8-677adbbeb035": {
+          "type": "logo_text",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo-inverse.png",
+            "heading": "",
+            "subtext": "<p>Llama Commerce offers end-to-end solutions in various technologies, serving hundreds of companies worldwide. From startups to Fortune 500, Llama Commerce chooses the best technologies to achieve real market results.<\/p>"
+          }
+        },
+        "1ebcefc5-96d8-4b64-b843-68a86350a8e1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "subtext": "<p>Llama Commerce offers end-to-end solutions in various technologies, serving hundreds of companies worldwide. From startups to Fortune 500, Llama Commerce chooses the best technologies to achieve real market results.<\/p>"
+          }
+        },
+        "420fcb44-54f3-4420-9107-03504de5e063": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shopify",
+            "menu": "shopify"
+          }
+        },
+        "be1cd578-2100-40dc-9265-34a1ec3bd57c": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Join Our Team",
+            "menu": "join-our-team"
+          }
+        },
+        "a21435ea-dbf4-489a-aaf3-ad3237f4f6a9": {
+          "type": "text",
+          "settings": {
+            "heading": "Get In Touch",
+            "subtext": "<p>148 Lafayette St. 3rd Floor. New York, NY 10013. USA<\/p><p><a href=\"mailto:mail@example.com\">hello@llamacommerce.io<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f61505c3-93c1-4f15-bdc8-677adbbeb035",
+        "1ebcefc5-96d8-4b64-b843-68a86350a8e1",
+        "420fcb44-54f3-4420-9107-03504de5e063",
+        "be1cd578-2100-40dc-9265-34a1ec3bd57c",
+        "a21435ea-dbf4-489a-aaf3-ad3237f4f6a9"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 150,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "a18fd6e2-fc51-4026-a4a1-54cb3cbaaafb",
+    "footer"
+  ]
+}

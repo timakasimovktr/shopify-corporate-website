@@ -1,0 +1,133 @@
+{%- style -%}
+  .swiper-slide img {
+    visibility: hidden;
+  }
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.55 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.55 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 992px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="clients color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+  <div class="container page-width">
+    <div class="clients-header" style="margin-bottom: {{ section.settings.margin__bottom }}px;">
+      <h2 class="heading montserrat {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">{{ section.settings.heading }}</h2>
+      <p class="desc {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ section.settings.content }}
+      </p>
+    </div>
+    <div class="swiper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" data-swiper-clients>
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+            <img src="{{ block.settings.image | img_url: '100px' }}" width="100px" height="100px" alt="{{ block.settings.image.alt }}">
+          </div>
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Clients Slider",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "range",
+        "id": "margin__bottom",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Content margin bottom",
+        "default": 36
+      },
+      {
+        "type": "inline_richtext",
+        "id": "heading",
+        "default": "Contact form",
+        "label": "Heading"
+      },
+      {
+        "type": "select",
+        "id": "heading_size",
+        "options": [
+          {
+            "value": "h2",
+            "label": "t:sections.all.heading_size.options__1.label"
+          }, {
+            "value": "h1",
+            "label": "t:sections.all.heading_size.options__2.label"
+          }, {
+            "value": "h0",
+            "label": "t:sections.all.heading_size.options__3.label"
+          }
+        ],
+        "default": "h1",
+        "label": "t:sections.all.heading_size.label"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "content",
+        "label": "Content"
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-1"
+      }, {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Clients Slider"
+      }
+    ]
+  }
+{% endschema %}
